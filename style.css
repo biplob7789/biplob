@@ -1,0 +1,185 @@
+body h1, h2, h3,h4,h5,h6{
+    font-family: 'Work Sans', sans-serif; 
+}
+img{
+    max-width: 100%;
+}
+/* header style*/
+.jon-header a{
+    font-size: 20px;
+    font-weight: 5600;
+    padding: 12px 6px;
+
+}
+.jon-header span{
+    color: rgb(241, 245, 248);
+    font-size: 20px;
+    display: inline-block;
+    background-color: rgb(24, 115, 201);
+    height: 52px;
+    width: 49px;
+    text-align: center;
+    font-size: 32px;
+    border-radius: 12px;
+    position: relative;
+    top: 0px;
+}
+    .jon-manu {
+        padding-right: 42px !important;
+        padding-right: 119px !important;
+    }
+/* sclider style */
+.slider-section{
+    background: url(.//day31/mbr-10.jpg) no-repeat center,center;
+    padding: 220px 0;
+    position: relative
+    
+}
+.slider-section::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: 0,0,0,0.6;
+     z-index: -1;
+}
+ 
+.slider-caption  h4{
+    margin-bottom: 21px;
+    font-size: 26px;
+}
+.slider-caption  h2{
+    margin-bottom: 26px;
+    font-size: 47px;
+
+}
+.slider-caption .btn{
+    padding: 16px 87px;
+    background: chartreuse;
+}
+.slider-caption .form-control{
+    padding: 16px 28px;
+}
+.noumber-coumter.h2{
+ font-weight: 700;
+}
+  
+/* about */
+
+.about-section{
+background: #f7f9ff;
+}
+.about-text-left{
+    margin-top: 170px;
+}
+/* feature-section*/
+.feature-item {
+height: 300px;
+box-shadow: 4px 5px 30px 0;
+}
+.left-img-sec{
+    width: 40%;
+    border-radius: 5px 0 5px;
+    padding: 5px;
+}
+.left-tex-sec{
+    width: 60%;
+    padding: 10px 20px;
+}
+.bbb{
+   font: bold;
+   text-align: center;
+}
+ .noumber-coumter.h2{
+    font-weight: 500;
+    font-size: 59px;
+}
+/* pricing table item */
+.pricing-item{
+    background-color:rgb(231, 231, 231);
+    padding: 50px;
+    box-shadow: 4px 5px 30px 0.1;
+    border-radius: 5px;
+}
+.pricing-item h1{}
+.pricing-item h5{}
+.pricing-item ul{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 45px;
+}
+.pricing-item ul li{
+margin-top: 20px;
+margin-bottom: 20px;
+font-size: 20px;
+}
+.pricing-item ul li span{
+    color: rgb(87, 87, 209);
+    font-size: 25px;
+    font-weight: bold;
+    width: 40px;
+    display: inline-block;
+
+}
+
+.pricing-item-button{}
+.pricing-item-button a{
+    border-color: rgb(87, 87, 209);
+    border-width: 2px;
+    color: rgba(87,87,209);
+    padding: 19px 48px;
+    font-size: 17px;
+    box-shadow: 4px 5px 30px 0.1;
+}
+/* testmonial*/
+.testimonial-section{
+    background-color: rgb(243, 242, 242);
+}
+.testimonial-item span{
+    font-size: 60px;
+    box-shadow: rgb(192, 192, 192);
+}
+.another-info{
+    width: 200px;
+    margin: auto;
+}
+.another-info img{
+width: 80px;
+float: left;
+}
+/* about sectiun*/
+.about-item{
+    margin-top: 70px;
+}
+.about-item .card{}
+.about-item .card img{
+    width: 145px;
+    height: auto;
+    margin-top: -91px;
+} 
+.about-pp{
+    padding: 10px 20px;
+    font-size: 24px;
+}
+.about-c{
+    padding: 10px 20px;
+}
+/* contact us css*/
+
+.contact-form-div{
+    box-shadow: 4px 5px 30px 0.1 rgba(64,87,209 0.2);
+    padding: 51px 35px;
+}
+/*footer*/
+.bbb{
+    margin-top: 10px;
+    background-color: slategray;
+}
+.bbb span{
+    font-size: 40px;
+    float: right;
+    color: rgb(190, 27, 182);
+}
